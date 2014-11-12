@@ -1,4 +1,10 @@
-package mmm.part04_date;
+package mmm.part04_correction;
+
+import mmm.part04_correction.Carl;
+import mmm.part04_correction.Dave;
+import mmm.part04_correction.Gru;
+import mmm.part04_correction.Kevin;
+import mmm.part04_correction.Minion;
 
 import org.assertj.core.api.Condition;
 import org.junit.Before;

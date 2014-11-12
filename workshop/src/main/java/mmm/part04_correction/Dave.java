@@ -1,8 +1,5 @@
-package mmm.part04_date;
+package mmm.part04_correction;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.HashMap;
 
 public class Dave implements Minion {
@@ -37,15 +34,4 @@ public class Dave implements Minion {
         return orderExecuted;
     }
     
-    @Override
-    public Date getBirthDate() {
-    	//TODO change using the new API-Date returning LocalDateTime
-    	Calendar calendar = new GregorianCalendar();
-    	
-    	calendar.set(Calendar.YEAR, 1984);
-    	calendar.set(Calendar.MONTH, 11); 
-    	calendar.set(Calendar.DAY_OF_MONTH, 17); 
-    	
-    	return calendar.getTime();
-    }
 }

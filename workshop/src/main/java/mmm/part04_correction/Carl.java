@@ -1,12 +1,13 @@
-package mmm.part05_correction;
+package mmm.part04_correction;
 
-public class Kevin implements Minion {
+
+public class Carl implements Minion {
 
     private boolean orderExecuted = false;
 
     @Override
     public void takeOrder(Order order) {
-        System.out.println("Kevin a reçu un ordre");
+        System.out.println("Carl a reçu un ordre");
         orderExecuted = true;
         order.doOrder();
     }
@@ -17,7 +18,7 @@ public class Kevin implements Minion {
 
     @Override
     public int getAge() {
-        return 10;
+        return 3;
     }
-    
+
 }

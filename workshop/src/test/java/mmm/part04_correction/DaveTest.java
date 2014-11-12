@@ -1,5 +1,8 @@
-package mmm.part05_correction;
+package mmm.part04_correction;
 
+
+import mmm.part04_correction.Dave;
+import mmm.part04_correction.Toys;
 
 import org.junit.Test;
 

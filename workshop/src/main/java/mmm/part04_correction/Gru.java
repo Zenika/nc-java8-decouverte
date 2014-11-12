@@ -1,4 +1,4 @@
-package mmm.part05_correction;
+package mmm.part04_correction;
 
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;

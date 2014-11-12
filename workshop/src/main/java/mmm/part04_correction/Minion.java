@@ -1,6 +1,5 @@
-package mmm.part05_correction;
+package mmm.part04_correction;
 
-import java.time.LocalDateTime;
 
 public interface Minion {
 
@@ -13,9 +12,4 @@ public interface Minion {
     default void seeBanana(){
         System.out.println("BA-NA-NAAAAA !!");
     }
-
-
-	default LocalDateTime getBirthDate() {
-		return LocalDateTime.now();
-	}
 }

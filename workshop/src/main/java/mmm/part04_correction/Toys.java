@@ -1,4 +1,4 @@
-package mmm.part04_date;
+package mmm.part04_correction;
 
 public enum Toys {
 

@@ -1,4 +1,4 @@
-package mmm.part05_correction;
+package mmm.part04_correction;
 
 @FunctionalInterface
 public interface Order {
